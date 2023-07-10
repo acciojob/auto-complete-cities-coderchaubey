@@ -1,5 +1,13 @@
-# Autocomplete cities 
+# Lift State Up 1
 
-Implement a form that offers autocomplete suggestions as the user types in a field. For example, if the user is entering their address, the form should display suggestions for street names or cities.
+Create a parent component that has a state of showModal set to false. 
 
-![output](https://storage.googleapis.com/acciojob-open-file-collections/auto-complete-cities_AdobeExpress.gif)
+Pass this state down to a child component that has a button. 
+
+When the button is clicked, update the state of showModal in the parent component to true.
+
+<INS>**NOTE:**</INS>
+
+- Use class name `parent` for parent component
+
+![output](https://storage.googleapis.com/acciojob-open-file-collections/lift-state-1_AdobeExpress.gif)
